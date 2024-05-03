@@ -1,0 +1,7 @@
+train_path: '/dataset/chengxilong/sentiment-analysis-on-movie-reviews/train.tsv'
+test_path: '/dataset/chengxilong/sentiment-analysis-on-movie-reviews/test.tsv'
+logging_steps: 50
+evaluation_strategy: 'epoch'
+save_strategy: 'epoch'
+load_best_model_at_end: True
+num_labels: 5
